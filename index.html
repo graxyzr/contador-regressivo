@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador Regressivo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/clock.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contador Regressivo</h1>
+        <div class="input-container">
+            <input type="number" id="hours" placeholder="Horas">
+            <input type="number" id="minutes" placeholder="Minutos">
+            <input type="number" id="seconds" placeholder="Segundos">
+            <br><br><br>
+            <div class="button-container">
+                <button onclick="startTimer()">Iniciar</button>
+            </div>
+        </div>
+        <div id="timer"></div>
+    </div>
+    <footer>Desenvolvido por @graxyzr</footer>
+    <audio id="audio" src="audio/Domingo Legal _ Efeito sonoro de tempo esgotado.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
